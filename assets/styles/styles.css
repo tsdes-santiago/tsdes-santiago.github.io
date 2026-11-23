@@ -1,0 +1,606 @@
+@import url(reset.css);
+@import url(global.css);
+
+/* ---------- Header ---------- */
+header {
+    background-color: var(--primary-bg-color);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+}
+
+.header__toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.header__logo {
+    margin: 0.5rem;
+}
+
+.logo__text {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.3rem;
+    color: var(--title-color);
+    letter-spacing: 0.05rem;
+}
+
+.logo__text b {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.3rem;
+    color: var(--accent-color);
+}
+
+#toggleTheme {
+    font-size: 1.5rem;
+    color: var(--icon-color);
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+/* ---------- Menu (mobile first) ---------- */
+.menu {
+    display: flex;
+    align-items: center;
+    background: var(--primary-bg-color);
+}
+
+.menu__item {
+    width: 100%;
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu--mobile {
+    width: 100%;
+    max-width: 1100px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color);
+    z-index: 10;
+}
+
+.menu--mobile .menu__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.4rem;
+    gap: 0.2rem;
+}
+
+.menu__link.active .menu__icon,
+.menu__link.active .menu__text,
+.menu__link:hover .menu__icon,
+.menu__link:hover .menu__text {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.menu__text {
+    color: var(--text-color);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.header__nav {
+    display: none;
+}
+
+.menu__icon {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.menu--principal {
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+/* ---------- Main / Hero ---------- */
+main {
+    width: 100%;
+    background-color: var(--primary-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.main__content1 {
+    max-width: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.main__photo {
+    width: 10.5rem;
+    height: 10.5rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 4px solid var(--accent-color);
+}
+
+.main__subtitle {
+    display: block;
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.main__headline {
+    font-size: 1.05rem;
+    text-align: center;
+}
+
+.main__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.menu--social {
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 100%;
+    background: transparent;
+    border-radius: 3.125rem;
+    padding: 0.875rem 1.5rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.btn--primary {
+    border: 1px solid var(--accent-color);
+}
+
+.btn--primary span,
+.btn--primary i {
+    color: var(--accent-color);
+}
+
+.btn span,
+.btn i {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+/* ---------- Sobre ---------- */
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem 1rem 2rem 1rem;
+    background: var(--tertiary-bg-color);
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about__stats {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.about__stat {
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.8rem;
+    padding: 1rem 0.5rem;
+}
+
+.about__stat b {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.6rem;
+    color: var(--accent-color);
+}
+
+.about__stat span {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+/* ---------- Skills ---------- */
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    justify-content: center;
+    padding: 3rem 1rem 2rem 1rem;
+    background: var(--secondary-bg-color);
+}
+
+.skills__list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    padding: 1rem;
+    background: var(--primary-bg-color);
+}
+
+.skills__item i {
+    font-size: 2rem;
+}
+
+/* ---------- Currículo acadêmico ---------- */
+.academic {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 3rem 1rem 2rem 1rem;
+    background: var(--tertiary-bg-color);
+}
+
+.academic__intro {
+    text-align: justify;
+}
+
+.academic__links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-left: 3px solid var(--accent-color);
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.timeline__item {
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.8rem;
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.timeline__period {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    letter-spacing: 0.05rem;
+}
+
+.timeline__title {
+    font-size: 1.05rem;
+}
+
+.timeline__item p {
+    font-size: 0.9rem;
+}
+
+/* ---------- Cursos ---------- */
+.courses {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses__type {
+    background-color: var(--tertiary-bg-color);
+    padding: 1rem;
+    border-top: 4px solid var(--accent-color);
+}
+
+.course {
+    background-color: var(--primary-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+.course.alter {
+    background-color: var(--secondary-bg-color);
+}
+
+.course__title {
+    margin: 1rem 0;
+    font-size: 1.15rem;
+    text-align: center;
+    max-width: 90%;
+}
+
+.course__badges {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 0.25rem 0.7rem;
+    font-size: 0.78rem;
+    color: var(--text-color);
+}
+
+.badge i {
+    font-size: 0.85rem;
+    color: var(--accent-color);
+}
+
+.course__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.course__figure {
+    width: 90%;
+}
+
+.course__img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.course__img:hover {
+    transform: scale(1.02);
+}
+
+.course__caption {
+    display: none;
+}
+
+.course__description {
+    width: 85%;
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.course__certlink {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.course__certlink:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Contato ---------- */
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 3rem 1rem 2rem 1rem;
+    background: var(--secondary-bg-color);
+}
+
+.contact__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.contact__item a {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.8rem;
+    padding: 0.9rem 1.2rem;
+    color: var(--text-color);
+    transition: 0.3s ease-in-out;
+    word-break: break-all;
+}
+
+.contact__item a:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.contact__item i {
+    font-size: 1.4rem;
+    color: var(--accent-color);
+}
+
+/* ---------- Footer ---------- */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--tertiary-bg-color);
+    padding: 1.5rem 1rem;
+    margin-bottom: 4rem; /* espaço para o menu mobile fixo */
+    text-align: center;
+}
+
+footer p,
+footer p a {
+    font-size: 0.8rem;
+    color: var(--text-color);
+}
+
+footer p a {
+    color: var(--accent-color);
+}
+
+/* ---------- Desktop ---------- */
+@media screen and (min-width: 768px) {
+
+    body {
+        margin: 0 auto;
+    }
+
+    .menu--mobile {
+        display: none;
+    }
+
+    .header__nav {
+        display: flex;
+    }
+
+    .header__logo {
+        margin-right: 1rem;
+    }
+
+    main {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .main__actions {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn {
+        width: auto;
+    }
+
+    .about {
+        padding: 3rem 4rem 2rem 4rem;
+    }
+
+    .about__stats {
+        justify-content: space-between;
+    }
+
+    .about__stat {
+        flex: 1 1 20%;
+    }
+
+    .skills {
+        padding: 3rem 4rem 2rem 4rem;
+    }
+
+    .academic {
+        padding: 3rem 4rem 2rem 4rem;
+    }
+
+    .academic__links {
+        flex-direction: row;
+    }
+
+    .timeline__item {
+        padding: 1.2rem 2rem;
+    }
+
+    .course__info {
+        flex-direction: row;
+        margin-bottom: 2rem;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .course__figure {
+        width: 45%;
+        flex-shrink: 0;
+    }
+
+    .course__img {
+        width: 100%;
+    }
+
+    .course__body {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .course__description {
+        width: 100%;
+        margin: 0;
+    }
+
+    .alter .course__info {
+        flex-direction: row-reverse;
+    }
+
+    .contact {
+        padding: 3rem 4rem 2rem 4rem;
+    }
+
+    .contact__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contact__item {
+        flex: 1 1 45%;
+    }
+
+    footer {
+        margin-bottom: 0;
+    }
+}

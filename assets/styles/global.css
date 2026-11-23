@@ -1,0 +1,85 @@
+/* Fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:wght@200;400&display=swap');
+
+/* ---------- Theme colors ---------- */
+
+/* Dark theme (default) */
+:root,
+:root[data-theme="dark"] {
+    --primary-color: #d5d5d0;
+
+    --primary-bg-color: #444444;
+    --secondary-bg-color: #666666;
+    --tertiary-bg-color: #222222;
+    --card-bg-color: #3a3a3a;
+    --border-color: #9a9a9a;
+
+    --title-color: #c0c0c0;
+    --link-color: #9a9ab3;
+    --icon-color: #c7c8c9;
+    --text-color: #9a9a9a;
+    --accent-color: #7aa2f7;
+}
+
+/* Light theme */
+:root[data-theme="light"] {
+    --primary-color: #0b0b0b;
+
+    --primary-bg-color: #dddddd;
+    --secondary-bg-color: #eeeeee;
+    --tertiary-bg-color: #cccccc;
+    --card-bg-color: #f4f4f4;
+    --border-color: #9a9a9a;
+
+    --title-color: #3b3b3b;
+    --link-color: #5a5a8a;
+    --icon-color: #555555;
+    --text-color: #0f0f0f;
+    --accent-color: #2f5fd0;
+}
+
+/* dev icons: keep original colors; on light theme the tiles become white */
+html[data-theme="light"] .skills__item {
+    background: #f8f8f8;
+}
+
+/* ---------- Global styles ---------- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: var(--title-color);
+    font-family: 'League Spartan', 'Poppins', sans-serif;
+}
+
+h1, h1 b {
+    font-size: 1.8rem;
+    color: var(--title-color);
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+p {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+section {
+    scroll-margin-top: 1rem;
+}
+
+a {
+    color: var(--link-color);
+}

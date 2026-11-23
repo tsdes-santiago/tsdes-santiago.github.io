@@ -1,0 +1,297 @@
+{
+    "courses_types": {
+        "courses__IA": "Inteligência Artificial & Agentes",
+        "courses__dados": "Ciência & Engenharia de Dados",
+        "courses__backend": "Programação & Back-end",
+        "courses__frontend": "Front-end",
+        "courses__cloud": "Nuvem, DevOps & Segurança"
+    },
+
+    "courses__IA": [
+        {
+            "title": "Formação AI for Teachers",
+            "code": "JKIIQ1GM",
+            "hours": 16,
+            "date": "2026-10-12",
+            "description": "Formação que aplica IA generativa ao contexto educacional, explorando ferramentas, prompts e estratégias para apoio ao ensino e personalização da aprendizagem."
+        },
+        {
+            "title": "CrewAI Fundamentals",
+            "code": "9QQQN6JG",
+            "hours": 5,
+            "date": "2026-09-22",
+            "description": "Fundamentos do framework CrewAI para construção de agentes autônomos de IA: definição de papéis, tarefas e fluxos de colaboração entre múltiplos agentes."
+        },
+        {
+            "title": "IBM Bob: IA de Nível Empresarial para Desenvolvedores e Tech Leaders",
+            "code": "FGVBO5CU",
+            "hours": 15,
+            "date": "2026-09-17",
+            "description": "Uso de assistentes de IA generativa no ciclo de desenvolvimento de software, com foco em produtividade e escala empresarial para desenvolvedores e líderes técnicos."
+        },
+        {
+            "title": "Riachuelo - Criando Produtos com IA",
+            "code": "Z2PWE2VV",
+            "hours": 35,
+            "date": "2026-09-13",
+            "description": "Bootcamp prático sobre a construção de produtos digitais potencializados por inteligência artificial, do problema de negócio à solução com IA generativa."
+        },
+        {
+            "title": "Santander - RAG com ChromaDB, LlamaIndex e Python",
+            "code": "JTA48SHP",
+            "hours": 2,
+            "date": "2026-07-30",
+            "description": "Aceleração prática sobre Retrieval-Augmented Generation (RAG): integração de LLMs com bases de conhecimento externas usando ChromaDB, LlamaIndex e Python."
+        },
+        {
+            "title": "Bootcamp HEINEKEN - Inteligência Artificial Aplicada a Vendas",
+            "code": "AF9PWFEJ",
+            "hours": 27,
+            "date": "2026-07-14",
+            "description": "Aplicações de inteligência artificial ao funil de vendas e à experiência do cliente: automação, análise de dados e uso de IA generativa no contexto comercial."
+        },
+        {
+            "title": "CI&T - Do Prompt ao Agente",
+            "code": "UMLPOZ9F",
+            "hours": 35,
+            "date": "2026-05-29",
+            "description": "Jornada prática de engenharia de prompts até a construção de agentes de IA, explorando ferramentas e padrões para automatizar tarefas com LLMs."
+        },
+        {
+            "title": "Lupo - Primeiros Passos com Inteligência Artificial",
+            "code": "MILTR0ZA",
+            "hours": 30,
+            "date": "2026-05-01",
+            "description": "Introdução à inteligência artificial: conceitos fundamentais, tipos de modelos e primeiras aplicações práticas para o dia a dia profissional."
+        },
+        {
+            "title": "Engenharia de Prompts na AWS com Claude",
+            "code": "I0Q6T8W3",
+            "hours": 10,
+            "date": "2024-10-13",
+            "description": "Ganhe habilidades práticas para aplicar engenharia de prompts e tornar a IA Generativa sua aliada no dia a dia. Entenda como esses sistemas são desenvolvidos a partir dos princípios e conceitos básicos da área e maximize suas possibilidades com produtividade e conforme o mercado atual."
+        },
+        {
+            "title": "Microsoft Copilot AI",
+            "code": "F84ABHOC",
+            "hours": 29,
+            "date": "2024-08-13",
+            "description": "Explore na prática conceitos importantes de Machine Learning, PLN e Visão computacional para dominar o kit de sobrevivência de IA para suas demandas de trabalho. Aprenda a usar o GitHub Copilot como assistente de programação para pair programming, revisão de código e refactoring, personalizar o Microsoft Copilot para o Microsoft 365 com o Copilot Studio e criar conteúdo de forma mais eficiente com IA Generativa."
+        },
+        {
+            "title": "Bootcamp Nexa - Fundamentos de IA Generativa e Claude 3",
+            "code": "3QAUPRX3",
+            "hours": 10,
+            "date": "2024-05-25",
+            "description": "Com uma introdução sólida não somente a Inteligência Artificial Generativa, mas um verdadeiro guia de como aplicá-la nas demandas reais do seu dia a dia, o bootcamp chegou para somar no conhecimento dos serviços mais utilizados da AWS na área. Conheça o Amazon Q, o Bedrock e o Claude 3 e adicione essas habilidades no seu currículo, aplicando o que aprendeu de forma prática para criar soluções com mais rapidez e eficiência."
+        },
+        {
+            "title": "Formação Fundamentos de Inteligência Artificial",
+            "code": "5NM52O27",
+            "hours": 10,
+            "date": "2024-03-05",
+            "description": "Panorama dos fundamentos de IA: histórico, aprendizado de máquina, deep learning e ética em IA, construindo a base conceitual para as trilhas avançadas."
+        }
+    ],
+
+    "courses__dados": [
+        {
+            "title": "Formação Python for Data Analytics",
+            "code": "VRMBCGWI",
+            "hours": 8,
+            "date": "2026-11-17",
+            "description": "Trilha introdutória de Python voltada à análise de dados: manipulação, limpeza e exploração de dados com as principais bibliotecas do ecossistema."
+        },
+        {
+            "title": "Formação Neo4j: Análise de Dados com Grafos",
+            "code": "PF0NPFVR",
+            "hours": 51,
+            "date": "2026-06-22",
+            "description": "Modelagem e consulta de dados em grafo com Neo4j e Cypher, aplicando análise de relacionamentos, recomendação e redes em problemas reais."
+        },
+        {
+            "title": "Bootcamp Afya - Automação de Dados com IA",
+            "code": "IFIT5WSP",
+            "hours": 51,
+            "date": "2026-05-06",
+            "description": "Uso de IA para automatizar fluxos de ingestão, tratamento e análise de dados, com foco na área de healthtech e soluções em saúde."
+        },
+        {
+            "title": "Accenture - Python para Análise e Automação de Dados",
+            "code": "6VFJOY0D",
+            "hours": 55,
+            "date": "2026-05-06",
+            "description": "Bootcamp com a Accenture sobre análise de dados e automação de processos com Python, incluindo manipulação de dados, scripts e integração de ferramentas."
+        },
+        {
+            "title": "Bradesco - GenAI & Dados",
+            "code": "WY7EFM3H",
+            "hours": 52,
+            "date": "2026-04-17",
+            "description": "Bootcamp do setor financeiro sobre IA generativa aplicada à análise e ao tratamento de dados, com foco em casos de uso reais e responsável."
+        },
+        {
+            "title": "TOTVS - Fundamentos de Engenharia de Dados e Machine Learning",
+            "code": "OB983GEG",
+            "hours": 61,
+            "date": "2026-04-01",
+            "description": "Fundamentos de engenharia de dados (pipelines, ETL/ELT, armazenamento) e sua conexão com modelos de machine learning em produção."
+        },
+        {
+            "title": "Santander 2025 - Ciência de Dados com Python",
+            "code": "RVZZ3WCC",
+            "hours": 63,
+            "date": "2025-12-16",
+            "description": "Bootcamp do Santander Coding Experience: jornada de ciência de dados com Python, do tratamento de dados à modelagem preditiva e visualização."
+        },
+        {
+            "title": "Neo4j - Análise de Dados com Grafos",
+            "code": "H8OOZDJA",
+            "hours": 51,
+            "date": "2025-12-19",
+            "description": "Bootcamp com a Neo4j sobre banco de dados orientado a grafos: modelo de propriedades, linguagem Cypher e análises de redes e relacionamentos."
+        },
+        {
+            "title": "Randstad - Análise de Dados",
+            "code": "LESI5ZXG",
+            "hours": 104,
+            "date": "2025-07-02",
+            "description": "Bootcamp com a Randstad para formação em análise de dados: estatística aplicada, Python, SQL, visualização e storytelling para apoio à decisão."
+        },
+        {
+            "title": "Microsoft AI for Tech - Azure Databricks",
+            "code": "VTTQEKJI",
+            "hours": 30,
+            "date": "2025-06-01",
+            "description": "Domine o Azure Databricks e o Azure Data Factory: tratamento e manipulação de grandes massas de dados, criação de processos ETL com dados complexos (imagens, textos e áudios) e implementação de Fabric e DevOps na nuvem da Microsoft."
+        },
+        {
+            "title": "Engenharia de Dados com Python (NTT DATA)",
+            "code": "SMDLJWRP",
+            "hours": 91,
+            "date": "2024-09-19",
+            "description": "Aprenda desde a linguagem Python até o domínio no tratamento de dados e dashboard com Power BI do jeito que é feito na NTT DATA, com foco nas práticas de engenharia de dados utilizadas pelo mercado."
+        },
+        {
+            "title": "Data Analytics com Power BI (Nexa Resources)",
+            "code": "WKMAGWJJ",
+            "hours": 82,
+            "date": "2024-09-19",
+            "description": "Jornada completa para se tornar um analista de dados, dominando ferramentas e técnicas como Power BI, DAX, ETL, modelagem de dados e IA. Além de aprender a extrair, manipular e contar histórias com dados em dashboards, você enfrentará desafios de código em Python para se preparar para o mercado de trabalho."
+        },
+        {
+            "title": "Python Data Analytics",
+            "code": "J3GSZ4DU",
+            "hours": 68,
+            "date": "2024-03-21",
+            "description": "Análise de dados com Python: estatística, limpeza e transformação de dados, visualização e machine learning com pandas, NumPy, SciKit-Learn e demais bibliotecas do ecossistema."
+        },
+        {
+            "title": "Formação Machine Learning Specialist",
+            "code": "LTGSNQ34",
+            "hours": 92,
+            "date": "2024-03-17",
+            "description": "Trilha completa de machine learning: fundamentos matemáticos, algoritmos supervisionados e não supervisionados, deep learning com PyTorch e práticas de MLOps para especialização na área."
+        },
+        {
+            "title": "Potência Tech powered by iFood | Ciência de Dados",
+            "code": "4F73EF70",
+            "hours": 80,
+            "date": "2023-09-01",
+            "description": "Bootcamp do Potência Tech (iFood) com fundamentos de dados: SQL, Python, ETL, visualização de dados e tomada de decisão orientada por dados."
+        }
+    ],
+
+    "courses__backend": [
+        {
+            "title": "Santander 2026 - Rust AI Developer",
+            "code": "PWMLRKN5",
+            "hours": 45,
+            "date": "2026-07-28",
+            "description": "Bootcamp do Santander sobre desenvolvimento em Rust aplicado à inteligência artificial: performance, segurança de memória e integração com ferramentas de IA."
+        },
+        {
+            "title": "LuizaLabs - Back-end com Python (2ª Edição)",
+            "code": "A2OZSXU2",
+            "hours": 38,
+            "date": "2026-05-13",
+            "description": "Bootcamp com a LuizaLabs para desenvolvimento back-end com Python: APIs, banco de dados, testes e boas práticas do mercado."
+        },
+        {
+            "title": "Formação Python Fundamentals",
+            "code": "1XL7FMNC",
+            "hours": 26,
+            "date": "2024-07-07",
+            "description": "Fundamentos da linguagem Python: sintaxe, estruturas de dados, funções, orientação a objetos e boas práticas para começar a programar com segurança."
+        },
+        {
+            "title": "Python AI Backend Developer",
+            "code": "ARMSF6F9",
+            "hours": 67,
+            "date": "2024-05-13",
+            "description": "Bootcamp (G4 Education) que une desenvolvimento back-end em Python com fundamentos de IA: APIs, banco de dados, integração com modelos de machine learning e deploy."
+        },
+        {
+            "title": "Formação Python Developer",
+            "code": "LJCK6T5L",
+            "hours": 64,
+            "date": "2024-04-09",
+            "description": "Trilha de formação de desenvolvedor Python: sintaxe, padrões de projeto, banco de dados, APIs, testes e versionamento com Git."
+        },
+        {
+            "title": "Formação Lógica de Programação",
+            "code": "ESXAYOMT",
+            "hours": 41,
+            "date": "2024-03-14",
+            "description": "Base de algoritmos e lógica de programação: variáveis, condicionais, laços, funções e resolução de problemas, com exercícios práticos na plataforma DIO."
+        }
+    ],
+
+    "courses__frontend": [
+        {
+            "title": "Formação CSS Web Developer",
+            "code": "AQE9YUYU",
+            "hours": 43,
+            "date": "2024-06-01",
+            "description": "Formação em CSS para o desenvolvimento web: seletores, box model, layout com Flexbox e Grid, responsividade e boas práticas de estilização."
+        },
+        {
+            "title": "Formação HTML Web Developer",
+            "code": "WVP5VNJK",
+            "hours": 21,
+            "date": "2024-04-02",
+            "description": "Para começar no mundo do front-end: entenda como trabalhar com HTML, a base para criar suas páginas web. Aprenda na prática a estruturar a marcação, como funciona cada tag, os elementos semânticos e outras boas práticas na construção da sua primeira página."
+        }
+    ],
+
+    "courses__cloud": [
+        {
+            "title": "Riachuelo - Cibersegurança",
+            "code": "COXNLODX",
+            "hours": 40,
+            "date": "2026-05-12",
+            "description": "Bootcamp sobre fundamentos de segurança da informação: ativos e ameaças, hardening, firewall, criptografia e boas práticas para proteger sistemas e dados."
+        },
+        {
+            "title": "Formação DevOps Fundamentals",
+            "code": "KKZURTAV",
+            "hours": 14,
+            "date": "2024-06-06",
+            "description": "Fundamentos de DevOps: cultura e práticas, CI/CD, containerização com Docker e o fluxo de integração e deploy contínuos."
+        },
+        {
+            "title": "Santander 2024 - Preparatório Certificação AWS",
+            "code": "UX9XQNWK",
+            "hours": 35,
+            "date": "2024-04-30",
+            "description": "Boas-vindas à trilha Preparatório Certificação AWS do Santander Bootcamp 2024! Conteúdo completamente focado e atualizado para conquistar a certificação CLF-02 (AWS Cloud Practitioner), uma das mais bem vistas do mercado, com a bagagem necessária para se tornar o profissional certificado que tantas empresas grandes procuram."
+        },
+        {
+            "title": "Descubra a Nuvem AWS (Nexa Resources)",
+            "code": "B52B5036",
+            "hours": 6,
+            "date": "2023-09-07",
+            "description": "Primeiro contato com a nuvem AWS: fundamentos de computação em nuvem, principais serviços e o modelo de responsabilidade compartilhada."
+        }
+    ]
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Santiago | Física, Dados & Desenvolvimento</title>
+    <!-- Metadata -->
+    <meta name="description" content="Página pessoal de Tiago Santiago — Ph.D. em Física, pesquisador em ciência de dados e desenvolvimento, com currículos ORCID/Lattes e certificados dos bootcamps da DIO.">
+    <meta property="og:title" content="Tiago Santiago | Física, Dados & Desenvolvimento">
+    <meta property="og:description" content="Currículo acadêmico (ORCID/Lattes) e cursos livres da DIO.">
+    <meta property="og:url" content="https://tsantiago.dev.br">
+    <meta property="og:type" content="website">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- devicon.dev icons -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" onclick="toggleMenu(this)" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" onclick="toggleMenu(this)" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" onclick="toggleMenu(this)" href="#curriculo">
+                        <span class="menu__text">Currículo</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" onclick="toggleMenu(this)" href="#cursos">
+                        <span class="menu__text">Cursos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" onclick="toggleMenu(this)" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__logo">
+            <a href="#home"><span class="logo__text">Tiago<b>Santiago</b></span></a>
+        </div>
+        <div class="header__toggle">
+            <i id="toggleTheme" class="bi bi-sun" title="Alternar tema claro/escuro"></i>
+        </div>
+    </header>
+    <nav class="nav__mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link active" onclick="toggleMenu(this)" href="#home">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" onclick="toggleMenu(this)" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" onclick="toggleMenu(this)" href="#curriculo">
+                    <i class="menu__icon bi bi-mortarboard"></i>
+                    <span class="menu__text">Currículo</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" onclick="toggleMenu(this)" href="#cursos">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Cursos</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" onclick="toggleMenu(this)" href="#contato">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <div class="main__content1">
+            <img class="main__photo" src="./assets/images/perfil.png" alt="Foto de Tiago Santiago">
+            <h1><b>Tiago Santiago</b> <span class="main__subtitle">do Espírito Santo</span></h1>
+            <p class="main__headline">Ph.D. em Física · Ciência de Dados, IA &amp; Desenvolvimento</p>
+            <ul class="menu menu--social">
+                <li><a class="menu__link" href="https://github.com/tsdes-santiago" target="_blank" rel="noopener" title="GitHub">
+                    <i class="menu__icon bi bi-github"></i>
+                </a></li>
+                <li><a class="menu__link" href="https://www.linkedin.com/in/santiago-tiago/" target="_blank" rel="noopener" title="LinkedIn">
+                    <i class="menu__icon bi bi-linkedin"></i>
+                </a></li>
+                <li><a class="menu__link" href="https://orcid.org/0000-0001-8574-5252" target="_blank" rel="noopener" title="ORCID">
+                    <i class="menu__icon bi bi-upc-scan"></i>
+                </a></li>
+                <li><a class="menu__link" href="http://lattes.cnpq.br/3619103245374691" target="_blank" rel="noopener" title="Currículo Lattes">
+                    <i class="menu__icon bi bi-journal-text"></i>
+                </a></li>
+            </ul>
+            <div class="main__actions">
+                <a class="btn btn--primary" href="#cursos">
+                    <span>Ver Cursos DIO</span>
+                    <i class="bi bi-arrow-down-right"></i>
+                </a>
+                <a class="btn btn--primary" href="#curriculo">
+                    <span>Currículo Acadêmico</span>
+                    <i class="bi bi-mortarboard"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <section class="about" id="sobre">
+        <h2>Sobre</h2>
+        <p>
+            Sou Ph.D. em Física pela Universidade de São Paulo, com graduação em Engenharia Física
+            pela Universidade Federal de São Carlos. Minha pesquisa de doutorado focou em interações
+            luz-matéria em nuvens de átomos livres, incluindo intercâmbios acadêmicos em Estrasburgo
+            e Nice, na França. Após o doutorado, realizei dois pós-doutoramentos — na Utrecht University
+            (Países Baixos) e na UFRN — trabalhando com redes quânticas 2D de átomos de Rydberg.
+            Atuei como pesquisador de pós-doutorado na Embrapa Instrumentação, onde concentrei meu
+            trabalho em modelos de aprendizado de máquina e visão computacional.
+        </p>
+        <p>
+            Estou em transição de carreira para a área de dados e desenvolvimento, com mais de
+            <b>1.600 horas</b> em bootcamps e formações na <b>DIO (Digital Innovation One)</b>.
+        </p>
+        <ul class="about__stats">
+            <li class="about__stat"><b>39</b><span>cursos &amp; bootcamps</span></li>
+            <li class="about__stat"><b>1.603h</b><span>de conteúdo certificado</span></li>
+            <li class="about__stat"><b>3</b><span>pós-doutoramentos</span></li>
+            <li class="about__stat"><b>2</b><span>graduação + doutorado</span></li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Principais tecnologias da minha jornada</h2>
+        <ul class="skills__list">
+            <li class="skills__item" title="Python">
+                <i class="devicon-python-plain-wordmark"></i>
+            </li>
+            <li class="skills__item" title="PyTorch">
+                <i class="devicon-pytorch-original"></i>
+            </li>
+            <li class="skills__item" title="SciKit-Learn">
+                <i class="devicon-scikitlearn-plain"></i>
+            </li>
+            <li class="skills__item" title="Pandas">
+                <i class="devicon-pandas-plain-wordmark"></i>
+            </li>
+            <li class="skills__item" title="FastAPI">
+                <i class="devicon-fastapi-plain"></i>
+            </li>
+            <li class="skills__item" title="Docker">
+                <i class="devicon-docker-plain-wordmark"></i>
+            </li>
+            <li class="skills__item" title="MongoDB">
+                <i class="devicon-mongodb-plain-wordmark"></i>
+            </li>
+            <li class="skills__item" title="PostgreSQL">
+                <i class="devicon-postgresql-plain-wordmark"></i>
+            </li>
+            <li class="skills__item" title="Azure">
+                <i class="devicon-azure-plain"></i>
+            </li>
+            <li class="skills__item" title="AWS">
+                <i class="devicon-amazonwebservices-plain-wordmark"></i>
+            </li>
+            <li class="skills__item" title="HTML5">
+                <i class="devicon-html5-plain-wordmark"></i>
+            </li>
+            <li class="skills__item" title="CSS3">
+                <i class="devicon-css3-plain-wordmark"></i>
+            </li>
+            <li class="skills__item" title="JavaScript">
+                <i class="devicon-javascript-plain"></i>
+            </li>
+            <li class="skills__item" title="LaTeX">
+                <i class="devicon-latex-original"></i>
+            </li>
+            <li class="skills__item" title="Arch Linux">
+                <i class="devicon-archlinux-plain"></i>
+            </li>
+        </ul>
+    </section>
+
+    <section class="academic" id="curriculo">
+        <h2>Currículo Acadêmico</h2>
+        <p class="academic__intro">
+            Registro completo do percurso acadêmico e científico pode ser consultado
+            publicamente nos links abaixo:
+        </p>
+        <div class="academic__links">
+            <a class="btn btn--primary" href="https://orcid.org/0000-0001-8574-5252" target="_blank" rel="noopener">
+                <i class="bi bi-upc-scan"></i><span>ORCID</span>
+            </a>
+            <a class="btn btn--primary" href="http://lattes.cnpq.br/3619103245374691" target="_blank" rel="noopener">
+                <i class="bi bi-journal-text"></i><span>Currículo Lattes</span>
+            </a>
+        </div>
+        <ol class="timeline">
+            <li class="timeline__item">
+                <span class="timeline__period">2024 – 2025</span>
+                <h3 class="timeline__title">Pós-Doutorado — Embrapa Instrumentação</h3>
+                <p>Pesquisa com modelos de aprendizado de máquina e visão computacional aplicados a problemas agroindustriais.</p>
+            </li>
+            <li class="timeline__item">
+                <span class="timeline__period">2023 – 2024</span>
+                <h3 class="timeline__title">Pós-Doutorado — UFRN</h3>
+                <p>Redes quânticas bidimensionais de átomos de Rydberg.</p>
+            </li>
+            <li class="timeline__item">
+                <span class="timeline__period">2022 – 2023</span>
+                <h3 class="timeline__title">Pós-Doutorado — Utrecht University (Países Baixos)</h3>
+                <p>Pesquisa em óptica e interações luz-matéria.</p>
+            </li>
+            <li class="timeline__item">
+                <span class="timeline__period">2014 – 2020</span>
+                <h3 class="timeline__title">Doutorado em Física — USP (IFSC, São Carlos)</h3>
+                <p>Interações luz-matéria em nuvens de átomos livres em espaço livre, com estudo de interações mediadas por luz entre átomos de dois níveis. Intercâmbios acadêmicos em Estrasburgo e Nice (França).</p>
+            </li>
+            <li class="timeline__item">
+                <span class="timeline__period">2009 – 2013</span>
+                <h3 class="timeline__title">Bacharelado em Engenharia Física — UFSCar</h3>
+                <p>Graduação em Engenharia Física pela Universidade Federal de São Carlos.</p>
+            </li>
+        </ol>
+    </section>
+
+    <section class="courses" id="cursos">
+        <!-- Adicionado dinamicamente via scripts.js + courses.json -->
+    </section>
+
+    <section class="contact" id="contato">
+        <h2>Contato</h2>
+        <ul class="contact__list">
+            <li class="contact__item">
+                <a href="https://github.com/tsdes-santiago" target="_blank" rel="noopener">
+                    <i class="bi bi-github"></i><span>github.com/tsdes-santiago</span>
+                </a>
+            </li>
+            <li class="contact__item">
+                <a href="https://www.linkedin.com/in/santiago-tiago/" target="_blank" rel="noopener">
+                    <i class="bi bi-linkedin"></i><span>linkedin.com/in/santiago-tiago</span>
+                </a>
+            </li>
+            <!-- Substitua pelo seu e-mail preferido -->
+            <li class="contact__item">
+                <a href="mailto:contato@tsantiago.dev.br">
+                    <i class="bi bi-envelope"></i><span>contato@tsantiago.dev.br</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© <span id="footerYear">2026</span> Tiago Santiago · Desenvolvido com HTML, CSS e JS a partir do projeto
+            <a href="https://github.com/tsdes-santiago/DIO_RiHappyFrontEnd/tree/main/PortfolioTransicao" target="_blank" rel="noopener">PortfolioTransição (DIO)</a>
+        </p>
+    </footer>
+    <script src="./assets/scripts/scripts.js" defer></script>
+</body>
+</html>
