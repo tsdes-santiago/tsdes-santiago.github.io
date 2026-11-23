@@ -64,15 +64,15 @@
             "description": "Introdução à inteligência artificial: conceitos fundamentais, tipos de modelos e primeiras aplicações práticas para o dia a dia profissional."
         },
         {
-            "title": "Engenharia de Prompts na AWS com Claude",
-            "code": "I0Q6T8W3",
+            "title": "Nexa - Engenharia de Prompts na AWS com Claude",
+            "code": "F84ABHOC",
             "hours": 10,
             "date": "2024-10-13",
             "description": "Ganhe habilidades práticas para aplicar engenharia de prompts e tornar a IA Generativa sua aliada no dia a dia. Entenda como esses sistemas são desenvolvidos a partir dos princípios e conceitos básicos da área e maximize suas possibilidades com produtividade e conforme o mercado atual."
         },
         {
             "title": "Microsoft Copilot AI",
-            "code": "F84ABHOC",
+            "code": "I0Q6T8W3",
             "hours": 29,
             "date": "2024-08-13",
             "description": "Explore na prática conceitos importantes de Machine Learning, PLN e Visão computacional para dominar o kit de sobrevivência de IA para suas demandas de trabalho. Aprenda a usar o GitHub Copilot como assistente de programação para pair programming, revisão de código e refactoring, personalizar o Microsoft Copilot para o Microsoft 365 com o Copilot Studio e criar conteúdo de forma mais eficiente com IA Generativa."
@@ -241,14 +241,14 @@
             "description": "Domine o Azure Databricks e o Azure Data Factory: tratamento e manipulação de grandes massas de dados, criação de processos ETL com dados complexos (imagens, textos e áudios) e implementação de Fabric e DevOps na nuvem da Microsoft."
         },
         {
-            "title": "Engenharia de Dados com Python (NTT DATA)",
+            "title": "NTT DATA - Engenharia de Dados com Python",
             "code": "SMDLJWRP",
             "hours": 91,
             "date": "2024-09-19",
             "description": "Aprenda desde a linguagem Python até o domínio no tratamento de dados e dashboard com Power BI do jeito que é feito na NTT DATA, com foco nas práticas de engenharia de dados utilizadas pelo mercado."
         },
         {
-            "title": "Data Analytics com Power BI (Nexa Resources)",
+            "title": "Sysvision - Data Analytics com Power BI",
             "code": "WKMAGWJJ",
             "hours": 82,
             "date": "2024-09-19",
@@ -276,7 +276,7 @@
             "description": "Bootcamp do Potência Tech (iFood) com fundamentos de dados: SQL, Python, ETL, visualização de dados e tomada de decisão orientada por dados."
         },
         {
-            "title": "Heineken - IA Aplicada a Dados com Copilot",
+            "title": "Heineken - Inteligência Artificial Aplicada a Dados com Copilot",
             "code": "8UHJBQ4M",
             "hours": 64,
             "date": "2025-02-06",
@@ -389,7 +389,7 @@
             "code": "L5MMVBAM",
             "hours": 75,
             "date": "2024-11-06",
-            "description": "Bootcamp patrocinado pela Ri Happy para começar no front-end do zero: HTML, CSS e JavaScript nos primeiros passos da construção de páginas e interfaces web — projeto que originou esta página."
+            "description": "Bootcamp patrocinado pela Ri Happy para começar no front-end do zero: HTML, CSS e JavaScript nos primeiros passos da construção de páginas e interfaces web."
         }
     ],
     "courses__cloud": [
