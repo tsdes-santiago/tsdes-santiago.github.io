@@ -13,7 +13,7 @@ domínio próprio **tsantiago.dev.br** (registro.br). Baseada no projeto
 ├── index.html             # página principal
 ├── 404.html               # página de erro personalizada
 └── assets/
-    ├── data/courses.json  # dados dos 39 cursos da DIO (fonte da seção Cursos)
+    ├── data/courses.json  # dados dos 66 cursos da DIO (fonte da seção Cursos)
     ├── images/            # foto de perfil, favicon e prévias dos certificados (.jpg)
     ├── scripts/scripts.js # temas dark/light + renderização dos cursos
     └── styles/            # reset.css, global.css (temas), styles.css (layout)

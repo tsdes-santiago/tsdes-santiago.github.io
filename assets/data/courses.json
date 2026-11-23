@@ -6,7 +6,6 @@
         "courses__frontend": "Front-end",
         "courses__cloud": "Nuvem, DevOps & Segurança"
     },
-
     "courses__IA": [
         {
             "title": "Formação AI for Teachers",
@@ -91,9 +90,85 @@
             "hours": 10,
             "date": "2024-03-05",
             "description": "Panorama dos fundamentos de IA: histórico, aprendizado de máquina, deep learning e ética em IA, construindo a base conceitual para as trilhas avançadas."
+        },
+        {
+            "title": "Microsoft AI for Tech - Copilot Studio",
+            "code": "2HFFDYJY",
+            "hours": 20,
+            "date": "2025-05-18",
+            "description": "Programa Microsoft AI for Tech: criação de chatbots e agentes personalizados com o Microsoft Copilot Studio, com integração a modelos de IA generativa."
+        },
+        {
+            "title": "Microsoft AI for Tech - OpenAI Services",
+            "code": "UDIJEBUT",
+            "hours": 15,
+            "date": "2025-05-22",
+            "description": "Programa Microsoft AI for Tech: uso dos serviços OpenAI no Azure (Azure OpenAI Services) para construir soluções de IA generativa na nuvem da Microsoft."
+        },
+        {
+            "title": "Microsoft 50 Anos - GitHub Copilot",
+            "code": "WLDYGBWO",
+            "hours": 17,
+            "date": "2025-05-14",
+            "description": "Nos 50 anos da Microsoft: produtividade em programação com GitHub Copilot, do preenchimento automático ao chat e à revisão de código."
+        },
+        {
+            "title": "Microsoft 50 Anos - Prompts Inteligentes",
+            "code": "HFMCZ2Z3",
+            "hours": 15,
+            "date": "2025-05-14",
+            "description": "Jornada prática de engenharia de prompts no programa comemorativo dos 50 anos da Microsoft, do básico ao expert na interação com LLMs."
+        },
+        {
+            "title": "Universia - Fundamentos de IA Generativa",
+            "code": "HFZ7SC9D",
+            "hours": 24,
+            "date": "2025-10-01",
+            "description": "Formação com a Universia sobre os fundamentos da IA generativa: como funcionam os grandes modelos de linguagem e suas aplicações práticas na educação e no trabalho."
+        },
+        {
+            "title": "DXC - IA do Zero ao Primeiro Agente",
+            "code": "YGE4WLE7",
+            "hours": 34,
+            "date": "2026-11-04",
+            "description": "Trilha com a DXC para construir o primeiro agente de IA: fundamentos, engenharia de prompts e implementação de fluxos agênticos."
+        },
+        {
+            "title": "Microsoft AI for Tech - Criando Prompts Inteligentes",
+            "code": "KIBRNXTR",
+            "hours": 30,
+            "date": "2025-01-19",
+            "description": "Bootcamp do programa Microsoft AI for Tech focado em engenharia de prompts: princípios, técnicas e boas práticas para extrair o máximo da IA generativa."
+        },
+        {
+            "title": "Microsoft AI for Tech - GitHub Copilot",
+            "code": "KLKSO2ZT",
+            "hours": 15,
+            "date": "2025-01-01",
+            "description": "GitHub Copilot como par de programação: tarefas reais de geração de código, refactoring e revisão com assistente de IA."
+        },
+        {
+            "title": "Microsoft - Fundamentos de IA",
+            "code": "G7BSMSQN",
+            "hours": 21,
+            "date": "2025-01-05",
+            "description": "Fundamentos de inteligência artificial na visão oficial da Microsoft: conceitos centrais de machine learning e suas aplicações práticas."
+        },
+        {
+            "title": "CAIXA - IA Generativa com Microsoft Copilot",
+            "code": "LC03AC6A",
+            "hours": 39,
+            "date": "2024-12-30",
+            "description": "Bootcamp da CAIXA sobre IA generativa com Microsoft Copilot, explorando aplicações no contexto bancário e na rotina de trabalho."
+        },
+        {
+            "title": "Nexa - Análise Avançada de Imagens e Texto com IA na AWS",
+            "code": "Z4SZFSMM",
+            "hours": 10,
+            "date": "2025-01-02",
+            "description": "Serviços cognitivos avançados da AWS (Rekognition, Comprehend e Textract) aplicados à análise de imagens e textos com IA."
         }
     ],
-
     "courses__dados": [
         {
             "title": "Formação Python for Data Analytics",
@@ -199,9 +274,36 @@
             "hours": 80,
             "date": "2023-09-01",
             "description": "Bootcamp do Potência Tech (iFood) com fundamentos de dados: SQL, Python, ETL, visualização de dados e tomada de decisão orientada por dados."
+        },
+        {
+            "title": "Heineken - IA Aplicada a Dados com Copilot",
+            "code": "8UHJBQ4M",
+            "hours": 64,
+            "date": "2025-02-06",
+            "description": "Bootcamp da Heineken com o Microsoft Copilot e IA generativa aplicados à análise de dados, automação de relatórios e geração de insights."
+        },
+        {
+            "title": "Suzano - Análise de Dados com Power BI",
+            "code": "BBIVU3GX",
+            "hours": 98,
+            "date": "2025-01-02",
+            "description": "Jornada completa de análise de dados com Power BI patrocinada pela Suzano: modelagem, DAX, dashboards e storytelling com dados."
+        },
+        {
+            "title": "BairesDev - Machine Learning Practitioner",
+            "code": "EY8XLD8O",
+            "hours": 96,
+            "date": "2024-12-04",
+            "description": "Programa prático com a BairesDev para a prática de machine learning: modelagem, treinamento, avaliação e deploy de modelos ponta a ponta."
+        },
+        {
+            "title": "Bootcamp Nexa - Machine Learning para Iniciantes na AWS",
+            "code": "OQKI90SV",
+            "hours": 10,
+            "date": "2024-07-04",
+            "description": "Introdução ao machine learning com Amazon SageMaker: fluxo de trabalho de ML e primeiros passos com as ferramentas da AWS."
         }
     ],
-
     "courses__backend": [
         {
             "title": "Santander 2026 - Rust AI Developer",
@@ -244,9 +346,22 @@
             "hours": 41,
             "date": "2024-03-14",
             "description": "Base de algoritmos e lógica de programação: variáveis, condicionais, laços, funções e resolução de problemas, com exercícios práticos na plataforma DIO."
+        },
+        {
+            "title": "Suzano - Python Developer",
+            "code": "IMBPJS1H",
+            "hours": 57,
+            "date": "2025-05-18",
+            "description": "Trilha de desenvolvedor Python patrocinada pela Suzano: tópicos avançados da linguagem, banco de dados, APIs e boas práticas de engenharia de software."
+        },
+        {
+            "title": "GFT Start X6 - Lógica de Programação",
+            "code": "RMZ20ARF",
+            "hours": 47,
+            "date": "2024-10-03",
+            "description": "Programa GFT Start X6: aprofundamento em lógica de programação com algoritmos e exercícios práticos de desenvolvimento."
         }
     ],
-
     "courses__frontend": [
         {
             "title": "Formação CSS Web Developer",
@@ -261,9 +376,22 @@
             "hours": 21,
             "date": "2024-04-02",
             "description": "Para começar no mundo do front-end: entenda como trabalhar com HTML, a base para criar suas páginas web. Aprenda na prática a estruturar a marcação, como funciona cada tag, os elementos semânticos e outras boas práticas na construção da sua primeira página."
+        },
+        {
+            "title": "Formação JavaScript Developer",
+            "code": "92QPEWFV",
+            "hours": 39,
+            "date": "2024-11-09",
+            "description": "Formação de desenvolvedor JavaScript: sintaxe da linguagem, manipulação do DOM e boas práticas para o desenvolvimento front-end moderno."
+        },
+        {
+            "title": "Ri Happy - Front-end do Zero",
+            "code": "L5MMVBAM",
+            "hours": 75,
+            "date": "2024-11-06",
+            "description": "Bootcamp patrocinado pela Ri Happy para começar no front-end do zero: HTML, CSS e JavaScript nos primeiros passos da construção de páginas e interfaces web — projeto que originou esta página."
         }
     ],
-
     "courses__cloud": [
         {
             "title": "Riachuelo - Cibersegurança",
@@ -292,6 +420,62 @@
             "hours": 6,
             "date": "2023-09-07",
             "description": "Primeiro contato com a nuvem AWS: fundamentos de computação em nuvem, principais serviços e o modelo de responsabilidade compartilhada."
+        },
+        {
+            "title": "Microsoft Certification Challenge t1 - AI-102",
+            "code": "0YKU21KS",
+            "hours": 34,
+            "date": "2024-11-16",
+            "description": "Primeira edição do Microsoft Certification Challenge: preparação para a certificação AI-102 (Azure AI Engineer Associate)."
+        },
+        {
+            "title": "Microsoft Certification Challenge t2 - AZ-204",
+            "code": "DLQTVITJ",
+            "hours": 22,
+            "date": "2025-02-03",
+            "description": "Segunda edição do Microsoft Certification Challenge: preparação para a certificação AZ-204 (Azure Developer Associate)."
+        },
+        {
+            "title": "Microsoft Certification Challenge t3 - DP-100",
+            "code": "DCO7HNM2",
+            "hours": 26,
+            "date": "2025-05-11",
+            "description": "Terceira edição do Microsoft Certification Challenge: preparação para a certificação DP-100 (Azure Data Scientist Associate)."
+        },
+        {
+            "title": "Microsoft Azure Advanced",
+            "code": "A6MLCLCW",
+            "hours": 42,
+            "date": "2024-11-16",
+            "description": "Conteúdos avançados sobre o Azure: arquitetura, serviços e soluções na nuvem da Microsoft."
+        },
+        {
+            "title": "Microsoft 50 Anos - Computação em Nuvem com Azure",
+            "code": "NQQ3PHHY",
+            "hours": 15,
+            "date": "2025-06-08",
+            "description": "Fundamentos de computação em nuvem com Azure no programa comemorativo dos 50 anos da Microsoft."
+        },
+        {
+            "title": "Santander Bootcamp Cibersegurança t2",
+            "code": "ETKEJBSQ",
+            "hours": 28,
+            "date": "2024-12-31",
+            "description": "Segunda edição do bootcamp do Santander em cibersegurança: vetores de ataque, defesas e boas práticas de segurança da informação."
+        },
+        {
+            "title": "Formação Docker Fundamentals",
+            "code": "GU83YXL8",
+            "hours": 15,
+            "date": "2024-10-16",
+            "description": "Fundamentos de Docker: criação e gerenciamento de containers, imagens e Dockerfiles para ambientes portáteis e reproduzíveis."
+        },
+        {
+            "title": "Formação Cybersecurity Specialist",
+            "code": "W6RX511B",
+            "hours": 22,
+            "date": "2024-12-31",
+            "description": "Formação de especialista em cibersegurança: fundamentos de segurança, redes, ferramentas e práticas defensivas."
         }
     ]
 }
