@@ -1,15 +1,14 @@
 # tsantiago.dev.br — Página pessoal de Tiago Santiago
 
-Página pessoal estática (HTML + CSS + JS puro), publicada no **GitHub Pages** com o
-domínio próprio **tsantiago.dev.br** (registro.br). Baseada no projeto
+Página pessoal estática (HTML + CSS + JS puro), hospedada no **Cloudflare Pages**
+com deploy automático a partir deste repositório GitHub e domínio próprio
+**tsantiago.dev.br** (registro.br). Baseada no projeto
 [PortfolioTransicao (DIO RiHappyFrontEnd)](https://github.com/tsdes-santiago/DIO_RiHappyFrontEnd/tree/main/PortfolioTransicao).
 
 ## Estrutura
 
 ```
 .
-├── CNAME                  # domínio próprio lido pelo GitHub Pages
-├── .nojekyll              # desativa o build Jekyll (site 100% estático)
 ├── index.html             # página principal
 ├── 404.html               # página de erro personalizada
 └── assets/
@@ -54,44 +53,34 @@ python3 -m http.server 8000
 Abra <http://localhost:8000>. (Não abra com `file://`: o `fetch` do `courses.json`
 exige um servidor local.)
 
-## Publicar no GitHub Pages
+## Publicar (Cloudflare)
 
-1. Crie um repositório **público** chamado `tsdes-santiago.github.io` no GitHub
-   (sem README, para começar vazio). Repositório de usuário publica direto na raiz
-   e aceita domínio próprio.
-2. No diretório deste site:
+O site é publicado pelo **Cloudflare Pages/Workers**, conectado a este repositório:
+cada `git push` na `main` gera um novo deploy automaticamente.
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Site pessoal no GitHub Pages com domínio tsantiago.dev.br"
-   git branch -M main
-   git remote add origin https://github.com/tsdes-santiago/tsdes-santiago.github.io.git
-   git push -u origin main
-   ```
+1. Conta gratuita em [cloudflare.com](https://dash.cloudflare.com)
+2. **Workers & Pages → Create → Pages → Connect to Git** → repositório
+   `tsdes-santiago/tsdes-santiago.github.io`, branch `main`
+   - Framework preset: **None** · Build command: vazio · Output directory: `.`
+3. **Custom domains**: adicionar `tsantiago.dev.br` e `www.tsantiago.dev.br`
+   (o Cloudflare cria os registros DNS e emite o certificado TLS sozinho)
 
-3. Em **Settings → Pages** do repositório, confirme que a origem é *Deploy from a
-   branch / main* e que o GitHub detectou o domínio custom (`tsantiago.dev.br`)
-   a partir do arquivo `CNAME`. Ative **Enforce HTTPS**.
+> O GitHub Pages foi **desativado** no repositório (Settings → Pages → Source: None);
+> o repo existe apenas como fonte de código/versionamento.
 
-## DNS no registro.br
+## DNS (registro.br → Cloudflare)
 
-No painel do registro.br, em **DNS → tsantiago.dev.br → Editar zona**, registre:
+O registro.br mantém o cadastro do domínio, mas os **nameservers apontam para o
+Cloudflare** (painel do registro.br → *Alterar Servidores DNS*):
 
-| Tipo  | Nome  | Conteúdo                |
-|-------|-------|-------------------------|
-| A     | @     | `185.199.108.153`       |
-| A     | @     | `185.199.109.153`       |
-| A     | @     | `185.199.110.153`       |
-| A     | @     | `185.199.111.153`       |
-| CNAME | www   | `tsdes-santiago.github.io` |
+| Servidor 1                   | Servidor 2                    |
+|------------------------------|-------------------------------|
+| `autumn.ns.cloudflare.com`   | `tanner.ns.cloudflare.com`    |
 
-> Mantenha apenas um conjunto de registros apontando para o GitHub. Se já houver
-> registros `A`/`CNAME` apontando para outro lugar (ex.: parking do registro.br),
-> substitua-os.
-
-Após a propagação (minutos a poucas horas), `https://tsantiago.dev.br` servirá o
-site com certificado TLS emitido automaticamente pelo GitHub.
+Com isso, a zona DNS (`A`, `CNAME`, `TXT`...) é gerida no painel do Cloudflare —
+inclusive os apontamentos do Pages, que ele configura automaticamente ao adicionar
+o domínio custom. Após a delegação dos NS (até ~24h; na prática 1–2h),
+`https://tsantiago.dev.br` serve o site com TLS válido.
 
 ## Créditos
 
